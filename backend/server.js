@@ -14,7 +14,7 @@ var server = http.createServer(function (req, res) {
         res.end();
         return;
     }
-    (0, router_1.default)(req, res); // Continuez avec le routage pour d'autres requêtes
+    (0, router_1.default)(req, res);
 });
 server.listen(PORT, function () {
     console.log("Server running on http://localhost:".concat(PORT));
